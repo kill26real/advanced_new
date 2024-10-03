@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Meine Webseite</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Über Uns</a></li>
+                    <li><a href="#services">Dienstleistungen</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="services">
+            <div class="container">
+                <h2>Unsere Dienstleistungen</h2>
+                <ul>
+                    <li>Beratung</li>
+                    <li>Entwicklung</li>
+                    <li>Support</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Kontakt: our face</h2>
+                <img src="{{ url_for('static', filename='images/photo.jpg') }}" alt="My Image">
+            </div>
+        </section>
+        <br>
+
+         <a href="{{ url_for('home') }}">Back to Home Page</a>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Meine Webseite. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+</body>
+</html>
