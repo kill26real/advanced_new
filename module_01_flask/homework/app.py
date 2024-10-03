@@ -34,6 +34,10 @@ def about():
 def hello():
     return 'Hallo, World!'
 
+@app.route('/hello_all')
+def hello():
+    return 'Hallo, all!'
+
 
 @app.route('/cars')
 def cars():
