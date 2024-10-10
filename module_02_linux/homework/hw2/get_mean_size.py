@@ -21,19 +21,22 @@ def convert_bytes(num_bytes):
     else:
         return f"{num_bytes / 1024**4:.2f} TB"
 
-def get_mean_size(data: str) -> float:
-    answer = ""
 
-    with open(data, 'r', encoding="UTF-8") as file:
-        lines = file.readlines()[2:-2]
-        for line in lines:
-            columns = line.split()
-            format_bytes = convert_bytes(int(columns[3]))
-            answer += f"Process {columns[-1]} use {format_bytes}\n"
-    return answer
+
+def get_mean_size(data) -> float:
+    answer = []
+
+    for line in data:
+        columns = line.split(" ")
+        if columns[4] == "":
+            answer.append(int(columns[5]))
+        else:
+            answer.append(int(columns[4]))
+    # return f"mean sum is {convert_bytes(sum(answer) / len(answer))}'
+    return sum(answer) / len(answer)
 
 
 if __name__ == '__main__':
-    data: str = sys.stdin.read()
+    data = sys.stdin.readlines()[1:]
     mean_size: float = get_mean_size(data)
     print(mean_size)

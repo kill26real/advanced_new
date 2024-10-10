@@ -38,7 +38,19 @@ import sys
 
 
 def decrypt(encryption: str) -> str:
-    ...
+    while True:
+        for index, word in enumerate(encryption):
+            if index == 0:
+                continue
+            if word == '.':
+                if encryption[index + 1] == ".":
+                    encryption = encryption[:index-1] + encryption[index+2:]
+                    break
+                else:
+                    encryption = encryption[:index] + encryption[index+1:]
+        if "." not in encryption:
+            break
+    return encryption
 
 
 if __name__ == '__main__':

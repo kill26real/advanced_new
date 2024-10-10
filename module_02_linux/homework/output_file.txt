@@ -1,0 +1,286 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1  22460 13556 ?        Ss   13:16   0:01 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    13:16   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    13:16   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-rcu_g]
+root           5  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-rcu_p]
+root           6  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-slub_]
+root           7  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-netns]
+root           9  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/0:0H-events_highpri]
+root          12  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-mm_pe]
+root          13  0.0  0.0      0     0 ?        I    13:16   0:00 [rcu_tasks_kthread]
+root          14  0.0  0.0      0     0 ?        I    13:16   0:00 [rcu_tasks_rude_kthread]
+root          15  0.0  0.0      0     0 ?        I    13:16   0:00 [rcu_tasks_trace_kthread]
+root          16  0.0  0.0      0     0 ?        S    13:16   0:00 [ksoftirqd/0]
+root          17  0.0  0.0      0     0 ?        I    13:16   0:05 [rcu_preempt]
+root          18  0.0  0.0      0     0 ?        S    13:16   0:00 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    13:16   0:00 [idle_inject/0]
+root          20  0.0  0.0      0     0 ?        S    13:16   0:00 [cpuhp/0]
+root          21  0.0  0.0      0     0 ?        S    13:16   0:00 [cpuhp/1]
+root          22  0.0  0.0      0     0 ?        S    13:16   0:00 [idle_inject/1]
+root          23  0.0  0.0      0     0 ?        S    13:16   0:00 [migration/1]
+root          24  0.0  0.0      0     0 ?        S    13:16   0:00 [ksoftirqd/1]
+root          26  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/1:0H-events_highpri]
+root          27  0.0  0.0      0     0 ?        S    13:16   0:00 [cpuhp/2]
+root          28  0.0  0.0      0     0 ?        S    13:16   0:00 [idle_inject/2]
+root          29  0.0  0.0      0     0 ?        S    13:16   0:00 [migration/2]
+root          30  0.0  0.0      0     0 ?        S    13:16   0:00 [ksoftirqd/2]
+root          32  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/2:0H-events_highpri]
+root          33  0.0  0.0      0     0 ?        S    13:16   0:00 [cpuhp/3]
+root          34  0.0  0.0      0     0 ?        S    13:16   0:00 [idle_inject/3]
+root          35  0.0  0.0      0     0 ?        S    13:16   0:00 [migration/3]
+root          36  0.0  0.0      0     0 ?        S    13:16   0:00 [ksoftirqd/3]
+root          38  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/3:0H-events_highpri]
+root          39  0.0  0.0      0     0 ?        S    13:16   0:00 [cpuhp/4]
+root          40  0.0  0.0      0     0 ?        S    13:16   0:00 [idle_inject/4]
+root          41  0.0  0.0      0     0 ?        S    13:16   0:00 [migration/4]
+root          42  0.0  0.0      0     0 ?        S    13:16   0:00 [ksoftirqd/4]
+root          44  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/4:0H-events_highpri]
+root          45  0.0  0.0      0     0 ?        S    13:16   0:00 [cpuhp/5]
+root          46  0.0  0.0      0     0 ?        S    13:16   0:00 [idle_inject/5]
+root          47  0.0  0.0      0     0 ?        S    13:16   0:00 [migration/5]
+root          48  0.0  0.0      0     0 ?        S    13:16   0:00 [ksoftirqd/5]
+root          50  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/5:0H-events_highpri]
+root          51  0.0  0.0      0     0 ?        S    13:16   0:00 [cpuhp/6]
+root          52  0.0  0.0      0     0 ?        S    13:16   0:00 [idle_inject/6]
+root          53  0.0  0.0      0     0 ?        S    13:16   0:00 [migration/6]
+root          54  0.4  0.0      0     0 ?        S    13:16   0:51 [ksoftirqd/6]
+root          56  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/6:0H-events_highpri]
+root          57  0.0  0.0      0     0 ?        S    13:16   0:00 [cpuhp/7]
+root          58  0.0  0.0      0     0 ?        S    13:16   0:00 [idle_inject/7]
+root          59  0.0  0.0      0     0 ?        S    13:16   0:00 [migration/7]
+root          60  0.0  0.0      0     0 ?        S    13:16   0:00 [ksoftirqd/7]
+root          62  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/7:0H-events_highpri]
+root          63  0.0  0.0      0     0 ?        S    13:16   0:00 [kdevtmpfs]
+root          64  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-inet_]
+root          66  0.0  0.0      0     0 ?        S    13:16   0:00 [kauditd]
+root          67  0.0  0.0      0     0 ?        S    13:16   0:00 [khungtaskd]
+root          68  0.0  0.0      0     0 ?        S    13:16   0:00 [oom_reaper]
+root          70  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-write]
+root          71  0.0  0.0      0     0 ?        S    13:16   0:00 [kcompactd0]
+root          72  0.0  0.0      0     0 ?        SN   13:16   0:00 [ksmd]
+root          73  0.0  0.0      0     0 ?        SN   13:16   0:00 [khugepaged]
+root          74  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-kinte]
+root          75  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-kbloc]
+root          76  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-blkcg]
+root          77  0.0  0.0      0     0 ?        S    13:16   0:02 [irq/9-acpi]
+root          80  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-tpm_d]
+root          81  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-ata_s]
+root          82  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-md]
+root          83  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-md_bi]
+root          84  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-edac-]
+root          85  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-devfr]
+root          86  0.0  0.0      0     0 ?        S    13:16   0:00 [watchdogd]
+root          87  0.0  0.0      0     0 ?        I<   13:16   0:01 [kworker/0:1H-events_highpri]
+root          88  0.0  0.0      0     0 ?        S    13:16   0:00 [kswapd0]
+root          89  0.0  0.0      0     0 ?        S    13:16   0:00 [ecryptfs-kthread]
+root          90  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-kthro]
+root          91  0.0  0.0      0     0 ?        S    13:16   0:00 [irq/122-aerdrv]
+root          92  0.0  0.0      0     0 ?        S    13:16   0:00 [irq/122-pcie-dpc]
+root          93  0.0  0.0      0     0 ?        S    13:16   0:00 [irq/124-aerdrv]
+root          94  0.0  0.0      0     0 ?        S    13:16   0:00 [irq/124-pcie-dpc]
+root          95  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-acpi_]
+root          98  0.0  0.0      0     0 ?        S    13:16   0:00 [hwrng]
+root         101  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-mld]
+root         102  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/6:1H-events_highpri]
+root         103  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-ipv6_]
+root         111  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-kstrp]
+root         114  0.2  0.0      0     0 ?        I<   13:16   0:28 [kworker/u17:0-i915_flip]
+root         119  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-crypt]
+root         130  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-charg]
+root         158  0.0  0.0      0     0 ?        I<   13:16   0:02 [kworker/7:1H-events_highpri]
+root         169  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/2:1H-events_highpri]
+root         171  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/3:1H-events_highpri]
+root         189  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/5:1H-kblockd]
+root         190  0.0  0.0      0     0 ?        I<   13:16   0:01 [kworker/1:1H-events_highpri]
+root         191  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/4:1H]
+root         199  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-nvme-]
+root         200  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-nvme-]
+root         201  0.0  0.0      0     0 ?        S    13:16   0:00 [scsi_eh_0]
+root         202  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-nvme-]
+root         203  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-scsi_]
+root         204  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-nvme-]
+root         206  0.0  0.0      0     0 ?        S    13:16   0:00 [scsi_eh_1]
+root         207  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-scsi_]
+root         209  0.0  0.0      0     0 ?        S    13:16   0:00 [irq/51-DELL08CC:00]
+root         214  0.0  0.0      0     0 ?        I    13:16   0:03 [kworker/4:2-i915-unordered]
+root         240  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-raid5]
+root         286  0.0  0.0      0     0 ?        S    13:16   0:00 [jbd2/nvme0n1p2-8]
+root         287  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-ext4-]
+root         338  0.0  0.2  67096 18044 ?        S<s  13:16   0:00 /usr/lib/systemd/systemd-journald
+root         399  0.0  0.1  30016  8324 ?        Ss   13:16   0:00 /usr/lib/systemd/systemd-udevd
+root         408  0.0  0.0      0     0 ?        S    13:16   0:00 [psimon]
+root         571  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-cfg80]
+root         592  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-ttm]
+root         599  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-ath10]
+root         600  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-ath10]
+root         601  0.0  0.0      0     0 ?        I<   13:16   0:00 [kworker/R-ath10]
+root         602  0.0  0.0      0     0 ?        S    13:16   0:00 [card1-crtc0]
+root         603  0.0  0.0      0     0 ?        S    13:16   0:00 [card1-crtc1]
+root         604  0.0  0.0      0     0 ?        S    13:16   0:00 [card1-crtc2]
+root         614  0.0  0.0      0     0 ?        S<   13:16   0:00 [spl_system_task]
+root         615  0.0  0.0      0     0 ?        S<   13:16   0:00 [spl_delay_taskq]
+root         616  0.0  0.0      0     0 ?        S<   13:16   0:00 [spl_dynamic_tas]
+root         617  0.0  0.0      0     0 ?        S<   13:16   0:00 [spl_kmem_cache]
+root         622  0.0  0.0      0     0 ?        S<   13:16   0:00 [zvol]
+root         623  0.0  0.0      0     0 ?        S    13:16   0:00 [arc_prune]
+root         624  0.0  0.0      0     0 ?        S    13:16   0:00 [arc_evict]
+root         625  0.0  0.0      0     0 ?        SN   13:16   0:00 [arc_reap]
+root         626  0.0  0.0      0     0 ?        S    13:16   0:00 [dbu_evict]
+root         627  0.0  0.0      0     0 ?        SN   13:16   0:00 [dbuf_evict]
+root         651  0.0  0.0      0     0 ?        SN   13:16   0:00 [z_vdev_file]
+root         652  0.0  0.0      0     0 ?        S    13:16   0:00 [l2arc_feed]
+systemd+     725  0.0  0.1  21712 13176 ?        Ss   13:16   0:01 /usr/lib/systemd/systemd-resolved
+systemd+     766  0.0  0.1  91212  8020 ?        Ssl  13:16   0:00 /usr/lib/systemd/systemd-timesyncd
+root         805  0.0  0.1 313664  8036 ?        Ssl  13:16   0:00 /usr/libexec/accounts-daemon
+avahi        806  0.0  0.0   8612  4544 ?        Ss   13:16   0:00 avahi-daemon: running [Kirill.local]
+root         808  0.0  0.0  13672  6784 ?        Ss   13:16   0:00 /usr/libexec/bluetooth/bluetoothd
+root         809  0.0  0.0   9788  2944 ?        Ss   13:16   0:00 /usr/sbin/cron -f -P
+message+     810  0.0  0.0  11128  6692 ?        Ss   13:16   0:02 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         815  0.0  0.0  82972  4108 ?        Ssl  13:16   0:00 /usr/sbin/irqbalance
+polkitd      828  0.0  0.1 391164 12096 ?        Ssl  13:16   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         835  0.0  0.0 310084  7056 ?        Ssl  13:16   0:00 /usr/libexec/switcheroo-control
+root         841  0.0  0.1  18148  9088 ?        Ss   13:16   0:00 /usr/lib/systemd/systemd-logind
+root         842  0.0  0.1 425264 10660 ?        Ssl  13:16   0:00 /usr/sbin/thermald --systemd --dbus-enable --adaptive
+root         843  0.0  0.1 258772 14696 ?        Ssl  13:16   0:09 /usr/bin/touchegg --daemon
+root         845  0.0  0.1 469244 14456 ?        Ssl  13:16   0:01 /usr/libexec/udisks2/udisksd
+avahi        874  0.0  0.0   8420  1452 ?        S    13:16   0:00 avahi-daemon: chroot helper
+root         894  0.0  0.2 337172 20388 ?        Ssl  13:16   0:04 /usr/sbin/NetworkManager --no-daemon
+root         901  0.0  0.1  18396 12380 ?        Ss   13:16   0:00 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+syslog       931  0.0  0.0 222508  6472 ?        Ssl  13:16   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         971  0.0  0.1 392172 12584 ?        Ssl  13:16   0:00 /usr/sbin/ModemManager
+root         995  0.0  0.1 317740  9900 ?        Ssl  13:16   0:04 /usr/libexec/upowerd
+root        1056  0.0  0.1  38608 12024 ?        Ss   13:16   0:00 /usr/sbin/cupsd -l
+root        1072  0.0  0.0 380080  7540 ?        SLsl 13:16   0:00 /usr/sbin/lightdm
+root        1081  6.2  1.3 897576 111148 tty7    Ssl+ 13:16  11:44 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root        1086  0.0  0.0   9068  2004 tty1     Ss+  13:16   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root        1110  0.0  0.0      0     0 ?        S    13:16   0:00 [psimon]
+rtkit       1140  0.0  0.0  22940  3492 ?        SNsl 13:16   0:00 /usr/libexec/rtkit-daemon
+root        1181  0.0  0.0      0     0 ?        S<   13:16   0:00 [krfcommd]
+root        1224  0.0  0.1 236472  9608 ?        Sl   13:16   0:00 lightdm --session-child 13 20
+cups-br+    1272  0.0  0.2 268396 20064 ?        Ssl  13:17   0:00 /usr/sbin/cups-browsed
+kernoops    1274  0.0  0.0  12744  2468 ?        Ss   13:17   0:00 /usr/sbin/kerneloops --test
+kernoops    1277  0.0  0.0  12744  2384 ?        Ss   13:17   0:00 /usr/sbin/kerneloops
+kirill      1293  0.0  0.1  20488 11780 ?        Ss   13:17   0:00 /usr/lib/systemd/systemd --user
+kirill      1294  0.0  0.0  23148  3780 ?        S    13:17   0:00 (sd-pam)
+kirill      1305  0.0  0.1 116932 15288 ?        S<sl 13:17   0:00 /usr/bin/pipewire
+kirill      1306  0.0  0.0  98100  6228 ?        Ssl  13:17   0:00 /usr/bin/pipewire -c filter-chain.conf
+kirill      1308  0.0  0.2 407300 19040 ?        S<sl 13:17   0:00 /usr/bin/wireplumber
+kirill      1309  0.0  0.2 123228 22968 ?        S<sl 13:17   0:00 /usr/bin/pipewire-pulse
+kirill      1310  0.0  0.1 317000 10584 ?        SLsl 13:17   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+kirill      1314  0.0  0.0  10560  6352 ?        Ss   13:17   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+kirill      1332  0.0  0.1 625240 15448 ?        Ssl  13:17   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-session-binary --session cinnamon
+kirill      1425  0.0  0.5 759316 43496 ?        Sl   13:17   0:01 /usr/bin/csd-power
+kirill      1426  0.0  0.3 450172 25384 ?        Sl   13:17   0:00 /usr/bin/csd-automount
+kirill      1427  0.0  0.0 303796  5740 ?        Sl   13:17   0:00 /usr/bin/csd-screensaver-proxy
+kirill      1428  0.0  0.0 309672  6292 ?        Ssl  13:17   0:00 /usr/libexec/xdg-permission-store
+kirill      1429  0.0  0.1 317896 11232 ?        Sl   13:17   0:00 /usr/bin/csd-print-notifications
+kirill      1435  0.0  0.3 376736 25468 ?        Sl   13:17   0:00 /usr/bin/csd-wacom
+kirill      1436  0.0  0.1 383088  8132 ?        Sl   13:17   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+kirill      1437  0.0  0.3 525532 26884 ?        Sl   13:17   0:00 /usr/bin/csd-color
+kirill      1447  0.0  0.3 376264 24856 ?        Sl   13:17   0:00 /usr/bin/csd-housekeeping
+kirill      1452  0.0  0.0 304196  6500 ?        Sl   13:17   0:00 /usr/bin/csd-settings-remap
+kirill      1454  0.0  0.3 594128 27716 ?        Sl   13:17   0:00 /usr/bin/csd-media-keys
+kirill      1455  0.0  0.0   9684  5324 ?        S    13:17   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+kirill      1456  0.0  0.5 455176 46776 ?        Sl   13:17   0:01 /usr/bin/csd-background
+kirill      1460  0.0  0.0 305192  6604 ?        Sl   13:17   0:00 /usr/bin/csd-a11y-settings
+kirill      1462  0.0  0.3 302064 24336 ?        Sl   13:17   0:00 /usr/bin/csd-clipboard
+kirill      1468  0.0  0.3 377884 26996 ?        Sl   13:17   0:00 /usr/bin/csd-xsettings
+kirill      1472  0.0  0.3 376056 25448 ?        Sl   13:17   0:01 /usr/bin/csd-keyboard
+kirill      1478  0.0  0.1 314656  8304 ?        Ssl  13:17   0:00 /usr/libexec/gvfsd
+kirill      1484  0.0  0.0 230360  6216 ?        Ssl  13:17   0:00 /usr/libexec/dconf-service
+kirill      1500  0.0  0.0 460084  7496 ?        Sl   13:17   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+kirill      1529  0.0  0.1 236176  8280 ?        Sl   13:17   0:01 /usr/libexec/at-spi2-registryd --use-gnome-session
+kirill      1534  0.0  0.1 389704 10532 ?        Ssl  13:17   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+kirill      1540  0.0  0.0 310164  6800 ?        Ssl  13:17   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+colord      1550  0.0  0.1 320552 14996 ?        Ssl  13:17   0:00 /usr/libexec/colord
+kirill      1552  0.0  0.0 311132  7256 ?        Ssl  13:17   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+kirill      1564  0.0  0.0 310136  6892 ?        Ssl  13:17   0:00 /usr/libexec/gvfs-goa-volume-monitor
+kirill      1574  0.0  0.3 547032 24336 ?        Sl   13:17   0:00 /usr/libexec/goa-daemon
+kirill      1586  0.0  0.5 542016 40268 ?        Sl   13:17   0:00 cinnamon-launcher
+kirill      1588  0.0  0.1 389492  9536 ?        Sl   13:17   0:00 /usr/libexec/goa-identity-service
+kirill      1594  0.0  0.1 389740  8332 ?        Ssl  13:17   0:00 /usr/libexec/gvfs-afc-volume-monitor
+kirill      1608  0.0  0.1 416568 15280 ?        Sl   13:17   0:00 /usr/libexec/csd-printer
+kirill      1621  9.9  2.4 4692064 196384 ?      Sl   13:17  18:39 cinnamon --replace
+kirill      1649  0.0  0.3 451652 30200 ?        Sl   13:17   0:00 /usr/lib/x86_64-linux-gnu/xapps/xapp-sn-watcher
+kirill      1664  0.0  0.0 310624  6592 ?        Sl   13:17   0:00 /usr/libexec/geoclue-2.0/demos/agent
+kirill      1665  0.0  0.3 301832 24656 ?        Sl   13:17   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+kirill      1668  0.0  0.7 805988 62544 ?        Sl   13:17   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+kirill      1672  0.0  0.8 857088 70344 ?        Sl   13:17   0:04 /usr/bin/nemo-desktop
+kirill      1675  0.0  0.7 631232 59544 ?        Sl   13:17   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+kirill      1676  0.0  0.5 547244 46052 ?        Sl   13:17   0:01 /usr/bin/nm-applet
+kirill      1681  0.0  0.4 392708 37904 ?        Sl   13:17   0:00 cinnamon-killer-daemon
+kirill      1757  0.0  0.5 1127524 42784 ?       Ssl  13:17   0:00 /usr/libexec/evolution-source-registry
+kirill      1780  0.0  0.3 1169932 24808 ?       Ssl  13:17   0:00 /usr/libexec/evolution-calendar-factory
+kirill      1812  0.0  0.3 752192 30280 ?        Ssl  13:17   0:00 /usr/libexec/evolution-addressbook-factory
+kirill      1816  0.0  0.1  49064  8316 ?        Ss   13:17   0:00 /usr/libexec/bluetooth/obexd
+kirill      1820  0.1  0.5 394420 40952 ?        Sl   13:17   0:12 /usr/bin/python3 /usr/bin/blueman-tray
+kirill      1878  0.0  0.1 609808  9236 ?        Sl   13:17   0:00 /usr/libexec/gvfsd-trash --spawner :1.28 /org/gtk/gvfs/exec_spaw/0
+kirill      1890  0.0  0.0 236740  6748 ?        Ssl  13:17   0:00 /usr/libexec/gvfsd-metadata
+kirill      1941  0.0  1.1 896316 93804 ?        Sl   13:17   0:00 mintUpdate
+kirill      2003  0.0  0.4  63744 37020 ?        S    13:17   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+kirill      2010  0.5  0.6 482808 51032 ?        Sl   13:17   1:00 mintreport-tray
+kirill      2030  0.0  0.2 564268 18272 ?        Ssl  13:17   0:01 /usr/libexec/xdg-desktop-portal
+kirill      2035  0.0  0.0 536924  7700 ?        Ssl  13:17   0:00 /usr/libexec/xdg-document-portal
+root        2041  0.0  0.0   2704  2056 ?        Ss   13:17   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+kirill      2044  0.0  0.0 384148  7280 ?        Ssl  13:17   0:00 /usr/libexec/xdg-desktop-portal-xapp
+kirill      2063  0.0  0.3 450952 26656 ?        Ssl  13:17   0:00 /usr/libexec/xdg-desktop-portal-gtk
+kirill      2086  1.0  3.7 34308868 298848 ?     SLl  13:18   1:56 /opt/google/chrome/chrome
+kirill      2092  0.0  0.0   8792  2060 ?        S    13:18   0:00 cat
+kirill      2093  0.0  0.0   8792  2064 ?        S    13:18   0:00 cat
+kirill      2095  0.0  0.0 33577932 3776 ?       Sl   13:18   0:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/kirill/.config/google-chrome/Crash Reports --metrics-dir=/home/kirill/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Linux Mint 22 --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=129.0.6668.89 --initial-client-fd=5 --shared-client-connection
+kirill      2097  0.0  0.0 33568696 3500 ?       Sl   13:18   0:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/kirill/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Linux Mint 22 --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=129.0.6668.89 --initial-client-fd=4 --shared-client-connection
+kirill      2103  0.0  0.7 33935972 60364 ?      S    13:18   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --string-annotations --crashpad-handler-pid=2095 --enable-crash-reporter=a11b8cf9-d3b1-401d-80e1-b00d42e0cbb5, --change-stack-guard-on-fork=enable
+kirill      2104  0.0  0.7 33935964 60740 ?      S    13:18   0:00 /opt/google/chrome/chrome --type=zygote --string-annotations --crashpad-handler-pid=2095 --enable-crash-reporter=a11b8cf9-d3b1-401d-80e1-b00d42e0cbb5, --change-stack-guard-on-fork=enable
+kirill      2106  0.0  0.2 33935988 17144 ?      S    13:18   0:00 /opt/google/chrome/chrome --type=zygote --string-annotations --crashpad-handler-pid=2095 --enable-crash-reporter=a11b8cf9-d3b1-401d-80e1-b00d42e0cbb5, --change-stack-guard-on-fork=enable
+kirill      2133 18.7  2.6 34964220 210036 ?     Sl   13:18  34:51 /opt/google/chrome/chrome --type=gpu-process --string-annotations --crashpad-handler-pid=2095 --enable-crash-reporter=a11b8cf9-d3b1-401d-80e1-b00d42e0cbb5, --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,13027975223686283145,3836661190528014272,262144 --variations-seed-version=20241008-180117.502000
+kirill      2134  0.4  1.5 33969276 124016 ?     Sl   13:18   0:49 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --string-annotations --crashpad-handler-pid=2095 --enable-crash-reporter=a11b8cf9-d3b1-401d-80e1-b00d42e0cbb5, --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,13027975223686283145,3836661190528014272,262144 --variations-seed-version=20241008-180117.502000
+kirill      2145  0.0  0.7 34003556 62204 ?      Sl   13:18   0:01 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --string-annotations --crashpad-handler-pid=2095 --enable-crash-reporter=a11b8cf9-d3b1-401d-80e1-b00d42e0cbb5, --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,13027975223686283145,3836661190528014272,262144 --variations-seed-version=20241008-180117.502000
+kirill      2182  1.4  2.9 1211973908 236828 ?   Sl   13:18   2:45 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=2095 --enable-crash-reporter=a11b8cf9-d3b1-401d-80e1-b00d42e0cbb5, --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1728472608716957 --launch-time-ticks=88321501 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,13027975223686283145,3836661190528014272,262144 --variations-seed-version=20241008-180117.502000
+kirill      2251  0.0  2.3 1211965744 187852 ?   Sl   13:18   0:09 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=2095 --enable-crash-reporter=a11b8cf9-d3b1-401d-80e1-b00d42e0cbb5, --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9 --time-ticks-at-unix-epoch=-1728472608716957 --launch-time-ticks=93345095 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,13027975223686283145,3836661190528014272,262144 --variations-seed-version=20241008-180117.502000
+kirill      2252  0.0  2.0 1211939884 163784 ?   Sl   13:18   0:01 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=2095 --enable-crash-reporter=a11b8cf9-d3b1-401d-80e1-b00d42e0cbb5, --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8 --time-ticks-at-unix-epoch=-1728472608716957 --launch-time-ticks=93357284 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,13027975223686283145,3836661190528014272,262144 --variations-seed-version=20241008-180117.502000
+kirill      2258  0.0  1.8 1213594204 150020 ?   Sl   13:18   0:01 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=2095 --enable-crash-reporter=a11b8cf9-d3b1-401d-80e1-b00d42e0cbb5, --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=10 --time-ticks-at-unix-epoch=-1728472608716957 --launch-time-ticks=93367578 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,13027975223686283145,3836661190528014272,262144 --variations-seed-version=20241008-180117.502000
+kirill      2303  0.3  4.7 1215317104 382004 ?   Sl   13:18   0:43 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=2095 --enable-crash-reporter=a11b8cf9-d3b1-401d-80e1-b00d42e0cbb5, --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=11 --time-ticks-at-unix-epoch=-1728472608716957 --launch-time-ticks=100005043 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,13027975223686283145,3836661190528014272,262144 --variations-seed-version=20241008-180117.502000
+kirill      3860  0.0  0.1 462844  9176 ?        Sl   13:30   0:00 /usr/libexec/gvfsd-network --spawner :1.28 /org/gtk/gvfs/exec_spaw/1
+kirill      3877  0.0  0.1 390912  9312 ?        Sl   13:30   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.28 /org/gtk/gvfs/exec_spaw/3
+root        3970  0.0  0.0      0     0 ?        I    13:32   0:04 [kworker/7:0-i915-unordered]
+root        3999  0.4  0.0      0     0 ?        I    13:32   0:45 [kworker/6:0-events]
+root        4427  0.0  0.0      0     0 ?        I    13:40   0:03 [kworker/3:0-i915-unordered]
+root        4602  0.0  0.0      0     0 ?        I    13:46   0:00 [kworker/4:1-mm_percpu_wq]
+root        4603  0.0  0.0      0     0 ?        I    13:46   0:04 [kworker/1:1-i915-unordered]
+root        4708  0.0  0.0      0     0 ?        I    13:50   0:03 [kworker/5:3-i915-unordered]
+root        4734  0.0  0.0      0     0 ?        S    13:50   0:00 [irq/135-mei_me]
+root        4748  0.0  0.0      0     0 ?        I    13:50   0:04 [kworker/0:3-events]
+root        4789  0.0  0.0 102120  5248 ?        Ssl  13:50   0:00 zed -F
+kirill      4932  0.0  0.5 546436 45564 ?        Ssl  13:51   0:00 /usr/libexec/gnome-terminal-server
+root        4942  0.0  0.5 478712 40196 ?        Ssl  13:51   0:00 /usr/libexec/fwupd/fwupd
+kirill      4954  9.4 30.9 10438800 2468612 pts/0 SLsl+ 13:51  14:20 /home/kirill/Programs/pycharm-community-2024.2.3/jbr/bin/java -classpath /home/kirill/Programs/pycharm-community-2024.2.3/lib/platform-loader.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/util-8.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/util.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/app-client.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/util_rt.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/opentelemetry.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/app.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/lib-client.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/stats.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/jps-model.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/external-system-rt.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/rd.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/bouncy-castle.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/protobuf.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/forms_rt.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/lib.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/externalProcess-rt.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/groovy.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/annotations.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/jsch-agent.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/junit4.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/nio-fs.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/trove.jar -XX:ErrorFile=/home/kirill/java_error_in_pycharm_%p.log -XX:HeapDumpPath=/home/kirill/java_error_in_pycharm_.hprof -Xms256m -Xmx1500m -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -XX:+IgnoreUnrecognizedVMOptions -ea -Dsun.io.useCanonCaches=false -Dsun.java2d.metal=true -Djbr.catch.SIGABRT=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Djdk.module.illegalAccess.silent=true -Dkotlinx.coroutines.debug=off -XX:CICompilerCount=2 -XX:ReservedCodeCacheSize=512m -XX:+UnlockDiagnosticVMOptions -XX:TieredOldPercentage=100000 -Dsun.tools.attach.tmp.only=true -Dawt.lock.fair=true -Xmx2048m -Djb.vmOptionsFile=/home/kirill/.config/JetBrains/PyCharmCE2024.2/pycharm64.vmoptions -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader -Didea.vendor.name=JetBrains -Didea.paths.selector=PyCharmCE2024.2 -Djna.boot.library.path=/home/kirill/Programs/pycharm-community-2024.2.3/lib/jna/amd64 -Dpty4j.preferred.native.folder=/home/kirill/Programs/pycharm-community-2024.2.3/lib/pty4j -Djna.nosys=true -Djna.noclasspath=true -Dintellij.platform.runtime.repository.path=/home/kirill/Programs/pycharm-community-2024.2.3/modules/module-descriptors.jar -Didea.platform.prefix=PyCharmCore -Dsplash=true -Daether.connector.resumeDownloads=false --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.ref=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.text=ALL-UNNAMED --add-opens=java.base/java.time=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.locks=ALL-UNNAMED --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED --add-opens=java.base/sun.net.dns=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.fs=ALL-UNNAMED --add-opens=java.base/sun.security.ssl=ALL-UNNAMED --add-opens=java.base/sun.security.util=ALL-UNNAMED --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED --add-opens=java.desktop/java.awt=ALL-UNNAMED --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED --add-opens=java.desktop/java.awt.event=ALL-UNNAMED --add-opens=java.desktop/java.awt.font=ALL-UNNAMED --add-opens=java.desktop/java.awt.image=ALL-UNNAMED --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-opens=java.desktop/javax.swing.text=ALL-UNNAMED --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED --add-opens=java.desktop/sun.awt=ALL-UNNAMED --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED --add-opens=java.desktop/sun.font=ALL-UNNAMED --add-opens=java.desktop/sun.java2d=ALL-UNNAMED --add-opens=java.desktop/sun.swing=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED -Xbootclasspath/a:/home/kirill/Programs/pycharm-community-2024.2.3/lib/nio-fs.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/nio-fs.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/nio-fs.jar:/home/kirill/Programs/pycharm-community-2024.2.3/lib/nio-fs.jar com.intellij.idea.Main
+kirill      5040  0.0  0.0   3936  2304 pts/0    S+   13:51   0:00 /home/kirill/Programs/pycharm-community-2024.2.3/bin/fsnotifier
+kirill      5275  0.0  1.0 34009476 82560 ?      Sl   13:51   0:01 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --string-annotations --crashpad-handler-pid=2095 --enable-crash-reporter=a11b8cf9-d3b1-401d-80e1-b00d42e0cbb5, --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,13027975223686283145,3836661190528014272,262144 --variations-seed-version=20241008-180117.502000
+kirill      5325 29.3  4.9 1218651292 394440 ?   Rl   13:52  44:21 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=2095 --enable-crash-reporter=a11b8cf9-d3b1-401d-80e1-b00d42e0cbb5, --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=19 --time-ticks-at-unix-epoch=-1728472608716957 --launch-time-ticks=1989661908 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,13027975223686283145,3836661190528014272,262144 --variations-seed-version=20241008-180117.502000
+kirill      5498  0.3  2.6 1213631836 213136 ?   Sl   13:59   0:33 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=2095 --enable-crash-reporter=a11b8cf9-d3b1-401d-80e1-b00d42e0cbb5, --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=26 --time-ticks-at-unix-epoch=-1728472608716957 --launch-time-ticks=2425466912 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,13027975223686283145,3836661190528014272,262144 --variations-seed-version=20241008-180117.502000
+kirill      5673  0.0  0.0  12132  6144 pts/2    Ss   14:12   0:00 /bin/bash --rcfile /home/kirill/Programs/pycharm-community-2024.2.3/plugins/terminal/shell-integrations/bash/bash-integration.bash -i
+kirill      5683  0.0  2.1 1213585916 175308 ?   Sl   14:12   0:03 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=2095 --enable-crash-reporter=a11b8cf9-d3b1-401d-80e1-b00d42e0cbb5, --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1728472608716957 --launch-time-ticks=3198105206 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,13027975223686283145,3836661190528014272,262144 --variations-seed-version=20241008-180117.502000
+kirill      5920  0.0  0.1 320420  9600 ?        Sl   14:15   0:00 /usr/libexec/gvfsd-http --spawner :1.28 /org/gtk/gvfs/exec_spaw/26
+root        5994  0.0  0.0      0     0 ?        I    14:15   0:02 [kworker/2:0-i915-unordered]
+root        6355  0.1  0.0      0     0 ?        I<   14:42   0:10 [kworker/u17:2-i915_flip]
+root        6366  1.0  0.0      0     0 ?        I    14:51   0:58 [kworker/6:1-i915-unordered]
+root        6374  0.0  0.0      0     0 ?        I    14:51   0:00 [kworker/5:1]
+root        6831  0.0  0.0      0     0 ?        I    15:30   0:00 [kworker/7:1]
+kirill      7007  0.0  0.8 1211903248 70528 ?    Sl   15:30   0:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=2095 --enable-crash-reporter=a11b8cf9-d3b1-401d-80e1-b00d42e0cbb5, --no-subproc-heap-profiling --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=39 --time-ticks-at-unix-epoch=-1728472608716957 --launch-time-ticks=7841603201 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,13027975223686283145,3836661190528014272,262144 --variations-seed-version=20241008-180117.502000
+root        7058  0.0  0.0      0     0 ?        I    15:30   0:00 [kworker/3:1-events]
+root        7713  0.0  0.0      0     0 ?        I    15:32   0:00 [kworker/u16:4-events_unbound]
+root        7721  0.0  0.0      0     0 ?        I    15:35   0:00 [kworker/0:0]
+root        7730  0.0  0.0      0     0 ?        I    15:36   0:00 [kworker/1:0]
+root        7734  0.0  0.0      0     0 ?        I    15:40   0:00 [kworker/u16:1-events_power_efficient]
+root        7896  0.0  0.0      0     0 ?        I    15:51   0:00 [kworker/2:2]
+root        7906  0.0  0.0      0     0 ?        I    15:57   0:00 [kworker/u16:2-flush-259:0]
+root        8147  0.0  0.0      0     0 ?        I<   16:14   0:00 [kworker/u17:1]
+kirill      8335  0.1  0.7 344300 57728 pts/0    S+   16:22   0:00 /home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib/jcef_helper --type=zygote --no-zygote-sandbox --disable-in-process-stack-traces --force-device-scale-factor=1.0 --locales-dir-path=/home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib/locales --log-severity=disable --resources-dir-path=/home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib --lang=en-US --user-data-dir=/home/kirill/.cache/JetBrains/PyCharmCE2024.2/jcef_cache --log-file=/home/kirill/jcef_4954.log
+kirill      8336  0.1  0.7 344288 58368 pts/0    S+   16:22   0:00 /home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib/jcef_helper --type=zygote --disable-in-process-stack-traces --force-device-scale-factor=1.0 --locales-dir-path=/home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib/locales --log-severity=disable --resources-dir-path=/home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib --lang=en-US --user-data-dir=/home/kirill/.cache/JetBrains/PyCharmCE2024.2/jcef_cache --log-file=/home/kirill/jcef_4954.log
+kirill      8341  0.0  0.1 344312 14988 pts/0    S+   16:22   0:00 /home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib/jcef_helper --type=zygote --disable-in-process-stack-traces --force-device-scale-factor=1.0 --locales-dir-path=/home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib/locales --log-severity=disable --resources-dir-path=/home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib --lang=en-US --user-data-dir=/home/kirill/.cache/JetBrains/PyCharmCE2024.2/jcef_cache --log-file=/home/kirill/jcef_4954.log
+kirill      8355  0.6  1.4 1828728 113228 pts/0  Sl+  16:22   0:00 /home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib/jcef_helper --type=gpu-process --locales-dir-path=/home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib/locales --log-severity=disable --resources-dir-path=/home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib --lang=en-US --user-data-dir=/home/kirill/.cache/JetBrains/PyCharmCE2024.2/jcef_cache --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --disable-in-process-stack-traces --log-file=/home/kirill/jcef_4954.log --shared-files --field-trial-handle=0,i,15317517750878251904,7829417543597303175,262144 --disable-features=SpareRendererForSitePerProcess --variations-seed-version
+kirill      8365  0.0  0.4 640012 38156 pts/0    Sl+  16:22   0:00 /home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib/jcef_helper --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --locales-dir-path=/home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib/locales --log-severity=disable --resources-dir-path=/home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib --lang=en-US --user-data-dir=/home/kirill/.cache/JetBrains/PyCharmCE2024.2/jcef_cache --disable-in-process-stack-traces --log-file=/home/kirill/jcef_4954.log --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,15317517750878251904,7829417543597303175,262144 --disable-features=SpareRendererForSitePerProcess --variations-seed-version
+kirill      8371  0.2  0.9 937604 78208 pts/0    Sl+  16:22   0:00 /home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib/jcef_helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --locales-dir-path=/home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib/locales --log-severity=disable --resources-dir-path=/home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib --lang=en-US --user-data-dir=/home/kirill/.cache/JetBrains/PyCharmCE2024.2/jcef_cache --disable-in-process-stack-traces --log-file=/home/kirill/jcef_4954.log --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,15317517750878251904,7829417543597303175,262144 --disable-features=SpareRendererForSitePerProcess --variations-seed-version
+kirill      8387  1.3  1.4 50001020 113004 pts/0 Sl+  16:22   0:00 /home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib/jcef_helper --type=renderer --locales-dir-path=/home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib/locales --log-severity=disable --resources-dir-path=/home/kirill/Programs/pycharm-community-2024.2.3/jbr/lib --user-data-dir=/home/kirill/.cache/JetBrains/PyCharmCE2024.2/jcef_cache --disable-in-process-stack-traces --autoplay-policy=no-user-gesture-required --force-device-scale-factor=1.0 --log-file=/home/kirill/jcef_4954.log --disable-gpu-compositing --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1728472774482140 --launch-time-ticks=10983793382 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,15317517750878251904,7829417543597303175,262144 --disable-features=SpareRendererForSitePerProcess --variations-seed-version
+kirill      8422  0.0  0.0  14120  4736 pts/2    R+   16:23   0:00 ps aux

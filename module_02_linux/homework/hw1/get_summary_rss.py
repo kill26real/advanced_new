@@ -39,13 +39,13 @@ def get_summary_rss(output_file) -> str:
         lines = file.readlines()[2:-2]
         for line in lines:
             columns = line.split()
-            format_bytes = convert_bytes(int(columns[3]))
+            format_bytes = convert_bytes(int(columns[5]))
             answer += f"Process {columns[-1]} use {format_bytes}\n"
     return answer
 
 
 if __name__ == '__main__':
     cwd = os.getcwd()
-    path: str = os.path.dirname(cwd) + '\output_file.txt'
+    path: str = os.path.dirname(cwd) + '/output_file.txt'
     summary_rss: str = get_summary_rss(path)
     print(summary_rss)
