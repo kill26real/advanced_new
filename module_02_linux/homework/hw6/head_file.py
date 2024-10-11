@@ -34,15 +34,9 @@ app = Flask(__name__)
 #
 @app.route("/head-file/<int:size>/<path:relative_path>")
 def head_file(size: int, relative_path: str):
-    # print(relative_path)
     file_path = os.path.dirname(os.getcwd()) + "/" + relative_path
-    # print("file path: ", file_path)
-    # file_size = os.path.getsize(file_path)
-    # print(file_size)
-
-    # Открытие файла
     with open(file_path, 'r') as file:
-        content = file.read()[:size]
+        content = file.read(size)
     return f'{file_path} {size}<br>{content}'
 
 
