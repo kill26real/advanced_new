@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Webseite</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Meine Webseite</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="{{ url_for('about') }}">Go to About Page</a></li>
+                    <li><a href="#services">Dienstleistungen</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Willkommen auf unserer Webseite</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>Über Uns</h2>
+                <a href="{{ url_for('about') }}">Go to About Page</a>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2>Unsere Dienstleistungen</h2>
+                <ul>
+                    <li>Beratung</li>
+                    <li>Entwicklung</li>
+                    <li>Support</li>
+                    <li><a href="{{ url_for('hello') }}">Say Hello</a></li>
+                    <li><a href="{{ url_for('cars') }}">Cars</a></li>
+                    <li><a href="{{ url_for('cats') }}">Cats</a></li>
+                    <li><a href="{{ url_for('time_now') }}">Time now</a></li>
+                    <li><a href="{{ url_for('time_one_hour') }}">Time in one hour</a></li>
+                    <li><a href="{{ url_for('random_word') }}">Get random words from 'War and piece'</a></li>
+                    <li><a href="{{ url_for('counter_visits') }}">How much times i visited the website</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Kontakt</h2>
+                <p>Wenn Sie Fragen haben, können Sie uns unter <a href="mailto:info@meinewebseite.de">info@meinewebseite.de</a> erreichen.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Meine Webseite. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+</body>
+</html>

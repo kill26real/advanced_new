@@ -1,0 +1,79 @@
+# English translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-08-20 15:34+0200\n"
+"PO-Revision-Date: 2024-08-20 15:34+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: templates/index.html:6
+msgid "Miete eines Landhauses"
+msgstr "Rent a haus"
+
+#: templates/index.html:21 templates/index.html:34
+msgid "Beschreibung"
+msgstr "Description"
+
+#: templates/index.html:22 templates/index.html:41
+msgid "Bewertungen"
+msgstr "Reviews"
+
+#: templates/index.html:23
+msgid "Fotos"
+msgstr "Fotos"
+
+#: templates/index.html:24
+msgid "Mietanfrage"
+msgstr "Form for rent"
+
+#: templates/index.html:25
+msgid "Kontakt"
+msgstr "Kontakt"
+
+#: templates/index.html:35
+msgid ""
+"Unser Landhaus liegt inmitten der wunderschönen Natur und bietet Ihnen "
+"eine perfekte Auszeit vom hektischen Alltag. Es verfügt über komfortable "
+"Schlafzimmer, eine voll ausgestattete Küche und einen großzügigen Garten,"
+" ideal für entspannte Sommerabende."
+msgstr ""
+"Our country house is located in the middle of beautiful nature and offers you"
+"a perfect break from hectic everyday life. It has comfortable "
+"Bedrooms, a fully equipped kitchen and a spacious garden,"
+"ideal for relaxing summer evenings."
+
+#: templates/index.html:43
+msgid ""
+" Ein wundervoller Ort, um den Urlaub zu verbringen. Alles war perfekt und"
+" wir haben uns sehr wohlgefühlt!"
+msgstr ""
+" A wonderful place to spend the vacation. Everything was perfect and"
+" We felt very comfortable!"
+
+#: templates/index.html:46
+msgid ""
+" Sehr schönes Haus in toller Lage. Die Ausstattung war hervorragend und "
+"der Service ausgezeichnet."
+msgstr ""
+" Very nice house in a great location. The facilities were excellent and "
+"The service was excellent."
+
+#: templates/index.html:90
+msgid ""
+"Falls Sie Fragen haben oder zusätzliche Informationen benötigen, "
+"erreichen Sie uns unter:"
+msgstr ""
+"If you have any questions or require additional information, "
+"reach us at:"

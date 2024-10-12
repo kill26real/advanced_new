@@ -38,7 +38,15 @@ import sys
 
 
 def decrypt(encryption: str) -> str:
-    ...
+    result = []
+    for index, word in enumerate(encryption):
+        result.append(word)
+        if len(result) >= 3 and (result[-1], result[-2]) == ('.', '.'):
+            result.pop()
+            result.pop()
+            result.pop()
+
+    return ''.join(word for word in result if word != ".")
 
 
 if __name__ == '__main__':

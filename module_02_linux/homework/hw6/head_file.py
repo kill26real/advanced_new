@@ -27,13 +27,17 @@ hello world!
 """
 
 from flask import Flask
+import os
 
 app = Flask(__name__)
 
-
-@app.route("/head_file/<int:size>/<path:relative_path>")
+#
+@app.route("/head-file/<int:size>/<path:relative_path>")
 def head_file(size: int, relative_path: str):
-    ...
+    file_path = os.path.dirname(os.getcwd()) + "/" + relative_path
+    with open(file_path, 'r') as file:
+        content = file.read(size)
+    return f'{file_path} {size}<br>{content}'
 
 
 if __name__ == "__main__":

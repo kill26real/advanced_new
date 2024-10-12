@@ -18,9 +18,11 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route("/max_number/...")
-def max_number():
-    ...
+@app.route("/max_number/<path:numbers>")
+def max_number(numbers: str):
+    numbers_int = list(map(int, numbers.split('/')))
+    max_num = max(numbers_int)
+    return  f'Максимальное переданное число: <i>{max_num}</i>'
 
 
 if __name__ == "__main__":

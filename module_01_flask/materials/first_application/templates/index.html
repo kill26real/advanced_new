@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ _('Miete eines Landhauses') }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+<!--    <script src="{{ url_for('static', filename='js/carousel.js') }}"></script>-->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Landhaus Mieten</h1>
+            <nav>
+                <a href="{{ url_for('change_language', language='en') }}">English</a>
+                <a href="{{ url_for('change_language', language='de') }}">Deutsch</a>
+                <a href="{{ url_for('change_language', language='ru') }}">Russisch</a>
+            </nav>
+            <nav>
+                <ul>
+                    <li><a href="#description">{{ _('Beschreibung') }}</a></li>
+                    <li><a href="#reviews">{{ _('Bewertungen') }}</a></li>
+                    <li><a href="#photos">{{ _('Fotos') }}</a></li>
+                    <li><a href="#rental-form">{{ _('Mietanfrage') }}</a></li>
+                    <li><a href="#contact">{{ _('Kontakt') }}</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="description">
+            <div class="container">
+                <h2>{{ _('Beschreibung') }}</h2>
+                <p>{{ _('Unser Landhaus liegt inmitten der wunderschönen Natur und bietet Ihnen eine perfekte Auszeit vom hektischen Alltag. Es verfügt über komfortable Schlafzimmer, eine voll ausgestattete Küche und einen großzügigen Garten, ideal für entspannte Sommerabende.') }}</p>
+            </div>
+        </section>
+
+        <section id="reviews">
+            <div class="container">
+                <h2>{{ _('Bewertungen') }}</h2>
+                <div class="review">
+                    <p><strong>Anna Müller:</strong>{{ _(' Ein wundervoller Ort, um den Urlaub zu verbringen. Alles war perfekt und wir haben uns sehr wohlgefühlt!') }}</p>
+                </div>
+                <div class="review">
+                    <p><strong>Max Schmidt:</strong>{{ _(' Sehr schönes Haus in toller Lage. Die Ausstattung war hervorragend und der Service ausgezeichnet.') }}</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="photos">
+            <div class="container">
+                <h2>Fotos</h2>
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <img src="{{ url_for('static', filename='images/photo1.jpg') }}" alt="Landhaus Außenansicht">
+                        <img src="{{ url_for('static', filename='images/photo2.jpg') }}" alt="Wohnzimmer">
+                        <img src="{{ url_for('static', filename='images/photo3.jpg') }}" alt="Schlafzimmer">
+                    </div>
+                    <button class="prev">&#10094;</button>
+                    <button class="next">&#10095;</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="rental-form">
+            <div class="container">
+                <h2>Mietanfrage</h2>
+                <form action="/submit" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">E-Mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="dates">Zeitraum:</label>
+                    <input type="text" id="dates" name="dates" placeholder="z.B. 01.09.2024 - 07.09.2024" required>
+
+                    <label for="message">Nachricht:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Anfrage senden</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Kontakt</h2>
+                <p>{{ _('Falls Sie Fragen haben oder zusätzliche Informationen benötigen, erreichen Sie uns unter:') }}</p>
+                <p><strong>Email:</strong> <a href="mailto:info@landhausvermietung.de">info@landhausvermietung.de</a></p>
+                <p><strong>Telefon:</strong> +49 123 456 7890</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Landhaus Vermietung. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/carousel.js') }}"></script>
+</body>
+</html>
