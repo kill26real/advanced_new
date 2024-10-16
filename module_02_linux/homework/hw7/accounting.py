@@ -21,20 +21,25 @@ global storage
 storage = {}
 
 
-@app.route("/add/<date>/<int:number>")
+@app.route("/add/<date>/<number>")
 def add(date: str, number: int):
+    if not str(number).isdigit():
+        raise ValueError
+    number = int(number)
     date_obj = datetime.strptime(date, "%Y%m%d").date()
     number_dict = storage.get(date_obj.year)
     if not number_dict:
         number_dict = {}
     number_dict[date_obj.month] = number
     storage[date_obj.year] = number_dict
-    print(storage)
     return f"Data was successfully recorded: year:{date_obj.year}, month:{date_obj.month}, amount:{number}"
 
 
-@app.route("/calculate/<int:year>")
-def calculate_year(year: int):
+@app.route("/calculate/<year>")
+def calculate_year(year):
+    if datetime.now().year < int(year) or not year.isdigit():
+        raise ValueError
+    year = int(year)
     summ = 0
     amounts = storage.get(year)
     if amounts:
@@ -43,9 +48,18 @@ def calculate_year(year: int):
         return f"Amount for {year} year is {summ}"
     return f"no Information about {year} year"
 
-
-@app.route("/calculate/<int:year>/<int:month>")
-def calculate_month(year: int, month: int):
+@app.route("/calculate/<int:year>/<month>")
+def calculate_month(year: int, month):
+    # print(datetime.now().year)
+    # print(datetime.now().month)
+    # print(year)
+    # print(month)
+    # print("8()0".isdigit())
+    # print('--------------------------------------')
+    if (not str(year).isdigit() or not str(month).isdigit() or (datetime.now().year == year and datetime.now().month < int(month)) or int(month) < 1 or int(month) > 12 or datetime.now().year < year):
+        raise ValueError
+    month = int(month)
+    year = int(year)
     amounts = storage.get(year)
     if amounts:
         summ = amounts.get(month)

@@ -15,7 +15,7 @@
     with self.assertRaises(TypeError):
         add('ymd')
     ```
-
+  
 - Создавать общие для всех тестов данные лучше в методе setUpClass.
 
     ```python

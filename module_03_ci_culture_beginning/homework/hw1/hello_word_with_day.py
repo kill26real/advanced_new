@@ -19,6 +19,8 @@ GREETINGS = (
 def hello_world(name: str) -> str:
     weekday: int = datetime.today().weekday()
     greeting: str = GREETINGS[weekday]
+    if name in GREETINGS:
+        raise ValueError("Можно вводить только имена")
     return f'Привет, {name}. {greeting}!'
 
 
