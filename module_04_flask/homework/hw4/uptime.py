@@ -6,13 +6,17 @@
 """
 
 from flask import Flask
+import datetime
 
 app = Flask(__name__)
 
 
 @app.route("/uptime", methods=['GET'])
 def uptime() -> str:
-    ...
+    with open('/proc/uptime', 'r') as f:
+        uptime_seconds = float(f.readline().split()[0])
+        uptime_str = str(datetime.timedelta(seconds=uptime_seconds)).split('.')[0]
+    return f'Current uptime is {uptime_str}'
 
 
 if __name__ == '__main__':

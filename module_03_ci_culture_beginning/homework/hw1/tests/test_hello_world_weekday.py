@@ -10,7 +10,6 @@ class MyTimeTest(unittest.TestCase):
         assert datetime.now() == datetime(2024, 10, 8)
 
 
-
 class TestMaxNumberApp(unittest.TestCase):
     def setUp(self):
         app.config['TESTING'] = True
