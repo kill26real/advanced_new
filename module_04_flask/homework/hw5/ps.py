@@ -8,14 +8,20 @@
 /ps?arg=a&arg=u&arg=x
 """
 
-from flask import Flask
-
+from flask import Flask, request, jsonify
+import subprocess
 app = Flask(__name__)
 
 
 @app.route("/ps", methods=["GET"])
 def ps() -> str:
-    ...
+    args = request.args.getlist('arg')
+    cmd = ['ps'] + args
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+        return f'output: {result.stdout}'
+    except subprocess.CalledProcessError as e:
+        return f'error: {str(e)}'
 
 
 if __name__ == "__main__":
