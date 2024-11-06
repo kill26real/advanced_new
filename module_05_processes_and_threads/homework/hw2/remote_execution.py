@@ -22,9 +22,6 @@ class CodeForm(FlaskForm):
 
 def run_python_code_in_subproccess(code: str, timeout: int):
 
-    # with open('temp_code.py', 'w') as f:
-    #     f.write(code)
-    # command = ['python', 'temp_code.py']
     try:
         safe_code = shlex.quote(code)
         command = f"python -c {safe_code}"
@@ -39,9 +36,9 @@ def run_python_code_in_subproccess(code: str, timeout: int):
         process.kill()
         return "Время исполнения кода превысило отведенное время"
     except Exception as e:
+        # return f"error: {stderr}"
         return f"error: {e}"
-    finally:
-        os.remove('temp_code.py')
+
 
 
 @app.route('/run_code', methods=['POST'])
