@@ -36,4 +36,4 @@ class Redirect:
             sys.stdout = self.old_stdout
         if self.old_stderr:
             sys.stderr = self.old_stderr
-        return None
+        return True
