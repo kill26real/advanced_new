@@ -10,12 +10,14 @@
 
 from flask import Flask, request, jsonify
 import subprocess
+import shlex
 app = Flask(__name__)
 
 
 @app.route("/ps", methods=["GET"])
 def ps() -> str:
     args = request.args.getlist('arg')
+    arguments = [shlex.quote(s) for s in args]
     cmd = ['ps'] + args
     try:
         result = subprocess.run(cmd, capture_output=True, text=True, check=True)

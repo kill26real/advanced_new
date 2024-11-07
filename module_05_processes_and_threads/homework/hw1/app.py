@@ -11,10 +11,16 @@
 она должна найти процесс по этому порту, завершить его и попытаться запустить сервер ещё раз.
 """
 from typing import List
-
+import subprocess
 from flask import Flask
-
+import os
+import signal
+import time
 app = Flask(__name__)
+
+
+'COMMAND  PID   USER   FD   TYPE DEVICE SIZE/OFF NODE NAME'
+'python  2442 kirill    3u  IPv4  16305      0t0  TCP localhost:5000 (LISTEN)'
 
 
 def get_pids(port: int) -> List[int]:
@@ -26,9 +32,19 @@ def get_pids(port: int) -> List[int]:
     if not isinstance(port, int):
         raise ValueError
 
-    pids: List[int] = []
-    ...
-    return pids
+    # result = subprocess.run(['lsof', '-i', f':{port}'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    result = subprocess.run(['lsof', '-i', f':{port}'], capture_output=True, text=True)
+    output = result.stdout.strip()
+    pids = []
+    if output:
+        lines = output.splitlines()
+        if len(lines) > 1:
+            for index, line in enumerate(lines):
+                if index == 0:
+                    continue
+                pids.append(int(line.split()[1]))
+            return pids
+    return []
 
 
 def free_port(port: int) -> None:
@@ -37,7 +53,10 @@ def free_port(port: int) -> None:
     @param port: порт
     """
     pids: List[int] = get_pids(port)
-    ...
+    if pids:
+        for pid in pids:
+            os.kill(pid, signal.SIGKILL)
+            time.sleep(1)
 
 
 def run(port: int) -> None:
