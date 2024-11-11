@@ -31,5 +31,11 @@ def index():
     return 'Главная страница'
 
 
+@app.errorhandler(404)
+def page_not_found(e):
+    available_urls = [url.endpoint for url in app.url_map.iter_rules()]
+    return f"Такой ссылки не существует, доступные ссылки: {available_urls}", 404
+
+
 if __name__ == '__main__':
     app.run(debug=True)

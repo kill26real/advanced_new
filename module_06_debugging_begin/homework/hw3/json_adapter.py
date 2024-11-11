@@ -26,12 +26,16 @@ logger.info('Сообщение')
 """
 
 import logging
+import json
 
 
 class JsonAdapter(logging.LoggerAdapter):
     def process(self, msg, kwargs):
-        new_message = msg
-        return new_message, kwargs
+        try:
+            json.loads(msg)
+            return msg, kwargs
+        except ValueError:
+            return json.dumps(msg), kwargs
 
 
 if __name__ == '__main__':

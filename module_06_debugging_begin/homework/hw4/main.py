@@ -9,6 +9,7 @@
 5. Какое слово чаще всего встречалось в сообщениях уровня WARNING.
 """
 from typing import Dict
+import json
 
 
 def task1() -> Dict[str, int]:
@@ -16,7 +17,25 @@ def task1() -> Dict[str, int]:
     1. Сколько было сообщений каждого уровня за сутки.
     @return: словарь вида {уровень: количество}
     """
-    pass
+    with open("skillbox_json_messages.log", "r") as file:
+        information = {
+            "DEBUG":0,
+            "INFO":0,
+            "WARNING":0,
+            "ERROR":0,
+            "CRITICAL":0,
+        }
+        for line in file:
+            line = line.strip()
+            try:
+                data = json.loads(line)
+            except json.JSONDecodeError:
+                print(f"Invalid JSON: {line}")
+                continue
+            information[data["level"]] += 1
+
+        return information
+
 
 
 def task2() -> int:
@@ -24,7 +43,21 @@ def task2() -> int:
     2. В какой час было больше всего логов.
     @return: час
     """
-    pass
+    information = {}
+    with open("skillbox_json_messages.log", "r") as file:
+        for line in file:
+            line = line.strip()
+            try:
+                data = json.loads(line)
+            except json.JSONDecodeError:
+                print(f"Invalid JSON: {line}")
+                continue
+            hour = data["time"].split(":")[0]
+            if not hour in information.keys():
+                information[hour] = 0
+            information[hour] += 1
+        max_hour = max(information, key=information.get)
+        return max_hour
 
 
 def task3() -> int:
@@ -32,15 +65,38 @@ def task3() -> int:
     3. Сколько логов уровня CRITICAL было в период с 05:00:00 по 05:20:00.
     @return: количество логов
     """
-    pass
-
+    logs = 0
+    with open("skillbox_json_messages.log", "r") as file:
+        for line in file:
+            line = line.strip()
+            try:
+                data = json.loads(line)
+            except json.JSONDecodeError:
+                print(f"Invalid JSON: {line}")
+                continue
+            hour = data["time"].split(":")[0]
+            minute = data["time"].split(":")[1]
+            if str(hour) == "05" and 0 <= int(minute) <= 20 and data["level"] == "CRITICAL":
+                logs += 1
+        return logs
 
 def task4() -> int:
     """
     4. Сколько сообщений содержат слово dog.
     @return: количество сообщений
     """
-    pass
+    logs = 0
+    with open("skillbox_json_messages.log", "r") as file:
+        for line in file:
+            line = line.strip()
+            try:
+                data = json.loads(line)
+            except json.JSONDecodeError:
+                print(f"Invalid JSON: {line}")
+                continue
+            if "dog" in data['message']:
+                logs += 1
+        return logs
 
 
 def task5() -> str:
@@ -48,7 +104,21 @@ def task5() -> str:
     5. Какое слово чаще всего встречалось в сообщениях уровня WARNING.
     @return: слово
     """
-    pass
+    information = {}
+    with open("skillbox_json_messages.log", "r") as file:
+        for line in file:
+            line = line.strip()
+            try:
+                data = json.loads(line)
+            except json.JSONDecodeError:
+                print(f"Invalid JSON: {line}")
+                continue
+            for word in data['message'].split(" "):
+                if not word in information.keys():
+                    information[word] = 0
+                information[word] += 1
+        max_word = max(information, key=information.get)
+        return max_word
 
 
 if __name__ == '__main__':

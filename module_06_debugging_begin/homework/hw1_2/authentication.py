@@ -18,17 +18,28 @@
 import getpass
 import hashlib
 import logging
+import re
 
 logger = logging.getLogger("password_checker")
 
 
+# logger.setLevel(logging.INFO)
+# file_handler = logging.FileHandler('stderr.txt')
+# file_handler.setLevel(logging.INFO)
+# formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s', datefmt='%H:%M:%S')
+# file_handler.setFormatter(formatter)
+# logger.addHandler(file_handler)
+
+
 def is_strong_password(password: str) -> bool:
-    return True
+    return not re.search(r'[A-Za-z]', password)
 
 
 def input_and_check_password() -> bool:
     logger.debug("Начало input_and_check_password")
-    password: str = getpass.getpass()
+    # password: str = getpass.getpass("Введите ваш пароль: ")
+    password: str = input("Введите ваш пароль: ")
+
 
     if not password:
         logger.warning("Вы ввели пустой пароль.")
@@ -51,7 +62,12 @@ def input_and_check_password() -> bool:
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.DEBUG)
+    logging.basicConfig(
+        level=logging.INFO,
+        filename='stderr.txt',
+        format = '%(asctime)s - %(levelname)s - %(message)s',
+        datefmt='%H:%M:%S',
+    )
     logger.info("Вы пытаетесь аутентифицироваться в Skillbox")
     count_number: int = 3
     logger.info(f"У вас есть {count_number} попыток")

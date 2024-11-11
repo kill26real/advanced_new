@@ -8,6 +8,7 @@
 """
 import logging
 import random
+from datetime import datetime, timedelta
 from typing import List
 
 logger = logging.getLogger(__name__)
@@ -57,10 +58,38 @@ def measure_me(nums: List[int]) -> List[List[int]]:
     logger.debug("Leave measure_me")
 
     return results
+def avarage():
+    with open("stdout.txt", "r") as file:
+        times = []
+        time_end = 0
+        time_start = 0
+        for lineee in file:
+            line = lineee.split(" - ")
+            message = line[2]
+            time = line[0]
+            if 'Enter measure_me' in message:
+                time_start = datetime.strptime(time, "%Y-%m-%d %H:%M:%S,%f")
+            elif 'Enter measure_me' in message and time_start != 0:
+                print("MESURE ME ERROR")
+            if 'Leave measure_me' in message:
+                time_end = datetime.strptime(time, "%Y-%m-%d %H:%M:%S,%f")
+            if time_start and time_end:
+                times.append(time_end - time_start)
+                time_end = 0
+                time_start = 0
+        if times:
+            average_difference = sum(times, timedelta()) / len(times)
+            print("Среднее выполнение работы: ", average_difference)
+        else:
+            print("в Функции среднего значения произошла неизвестная ошибка")
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level="DEBUG")
+    logging.basicConfig(level="DEBUG",
+                        filename='stdout.txt',
+                        format = '%(asctime)s - %(levelname)s - %(message)s',
+                        )
     for it in range(15):
         data_line = get_data_line(10 ** 3)
         measure_me(data_line)
+    avarage()
