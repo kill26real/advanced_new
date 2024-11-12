@@ -10,6 +10,7 @@
 """
 from typing import Dict
 import json
+import re
 
 
 def task1() -> Dict[str, int]:
@@ -94,7 +95,7 @@ def task4() -> int:
             except json.JSONDecodeError:
                 print(f"Invalid JSON: {line}")
                 continue
-            if "dog" in data['message']:
+            if re.search(r'\bdog\b', data['message']):
                 logs += 1
         return logs
 

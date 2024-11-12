@@ -56,8 +56,9 @@ def measure_me(nums: List[int]) -> List[List[int]]:
                     right -= 1
 
     logger.debug("Leave measure_me")
-
     return results
+
+
 def avarage():
     with open("stdout.txt", "r") as file:
         times = []
